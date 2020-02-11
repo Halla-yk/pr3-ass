@@ -11,11 +11,11 @@ package studentpro;
  */
 public class ArtStudent extends Student{
 
-    public ArtStudent(int id, String name, String major,int mid,int report,int finall) {
+    public ArtStudent(int id, String name, String major,int midd,int report,int finall) {
         this.id = id;
         this.major = major;
         this.name =name;
-        this.grade = mid*0.4+report*0.1+finall*0.5;
+        this.grade = midd*0.4+report*0.1+finall*0.5;
     }
 
    
