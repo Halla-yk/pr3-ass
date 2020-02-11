@@ -1,0 +1,5 @@
+Student{id=1, name=E, major=EE, grade=92.6}
+Student{id=1, name=A, major=AA, grade=90.80000000000001}
+Student{id=1, name=B, major=bb, grade=88.19999999999999}
+Student{id=1, name=D, major=DD, grade=85.0}
+Student{id=1, name=C, major=cc, grade=82.1}
