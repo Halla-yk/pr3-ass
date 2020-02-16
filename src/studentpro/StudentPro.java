@@ -23,9 +23,9 @@ public class StudentPro {
      */
     public static void main(String[] args) throws FileNotFoundException{
         
-        Student[] st = {new ItStudent(1,"A","AA",99,85,89),
-        new ItStudent(1,"B","bb",87,75,99),
-        new ItStudent(1,"C","cc",67,88,89),new ArtStudent(1,"D","DD",97,67,79),new ArtStudent(1,"E","EE",99,85,89)};
+        Student[] st = {new ItStudent(1,"A std","AA",56,78,89),
+        new ItStudent(1,"B std","bb",57,85,99),
+        new ItStudent(1,"C std","cc",95,99,89),new ArtStudent(1,"D std","DD",66,66,79),new ArtStudent(1,"E std","EE",99,55,89)};
         Student.sort(st);
         for(Student s : st){
             System.out.println(s);
