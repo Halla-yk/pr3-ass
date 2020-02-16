@@ -23,11 +23,11 @@ public class StudentPro {
      */
     public static void main(String[] args) throws FileNotFoundException{
         
-        Student[] std = {new ItStudent(1,"A std","AA",56,78,89),
+        Student[] std = {new ItStudent(5,"A std","AA",56,78,89),
         new ItStudent(1,"B std","bb",57,85,99),
-        new ItStudent(1,"C std","cc",95,99,89),
-        new ArtStudent(1,"D std","DD",66,66,79),
-        new ArtStudent(1,"E std","EE",99,55,89)};
+        new ItStudent(2,"C std","cc",95,99,89),
+        new ArtStudent(3,"D std","DD",66,66,79),
+        new ArtStudent(4,"E std","EE",99,55,89)};
         
         
         Student.sortData(std);
