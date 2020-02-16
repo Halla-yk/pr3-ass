@@ -58,7 +58,7 @@ public class Student {
 
    
     
-    public static Student[] sort(Student[] a){
+    public static Student[] sortData(Student[] a){
           for (int j = 0; j < a.length; j++) {
           for(int i=0; i< a.length-1; i++){
                if(a[i+1].grade > 

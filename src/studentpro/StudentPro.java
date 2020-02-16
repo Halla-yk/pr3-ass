@@ -23,15 +23,19 @@ public class StudentPro {
      */
     public static void main(String[] args) throws FileNotFoundException{
         
-        Student[] st = {new ItStudent(1,"A std","AA",56,78,89),
+        Student[] std = {new ItStudent(1,"A std","AA",56,78,89),
         new ItStudent(1,"B std","bb",57,85,99),
-        new ItStudent(1,"C std","cc",95,99,89),new ArtStudent(1,"D std","DD",66,66,79),new ArtStudent(1,"E std","EE",99,55,89)};
-        Student.sort(st);
-        for(Student s : st){
+        new ItStudent(1,"C std","cc",95,99,89),
+        new ArtStudent(1,"D std","DD",66,66,79),
+        new ArtStudent(1,"E std","EE",99,55,89)};
+        
+        
+        Student.sortData(std);
+        for(Student s : std){
             System.out.println(s);
     }
         PrintWriter output = new PrintWriter(new File("src/StudentPro/std.data"));
-        for(Student s : st){
+        for(Student s : std){
             output.println(s);
         }
         output.close();
